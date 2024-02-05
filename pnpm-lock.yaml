@@ -71,8 +71,8 @@ devDependencies:
     specifier: 8.56.0
     version: 8.56.0
   eslint-plugin-qwik:
-    specifier: 1.4.2
-    version: 1.4.2(eslint@8.56.0)
+    specifier: 1.4.3
+    version: 1.4.3(eslint@8.56.0)
   postcss:
     specifier: 8.4.33
     version: 8.4.33
@@ -6083,8 +6083,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-qwik@1.4.2(eslint@8.56.0):
-    resolution: {integrity: sha512-A5uVRaNDRgbi0+eE9ZF+V9uiGIklBFW+lXVlF9wzweNPNbWeLPNRP2d1Es0ZjEqC69boZq9FRfcFvwysEO0poQ==}
+  /eslint-plugin-qwik@1.4.3(eslint@8.56.0):
+    resolution: {integrity: sha512-AxXWpfAr1MQfPzn6slPsggvoaFNKVFJD6p7zLas7iMd1Z2pC7+jsd6yF7jzl89XOtQS05dTgLIWvit0nVagPPA==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       eslint: ^8.56.0
