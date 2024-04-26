@@ -35,8 +35,8 @@ devDependencies:
     specifier: 7.6.18
     version: 7.6.18(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-links':
-    specifier: 7.6.18
-    version: 7.6.18(react@18.2.0)
+    specifier: 8.0.9
+    version: 8.0.9(react@18.2.0)
   '@storybook/blocks':
     specifier: 8.0.9
     version: 8.0.9(react-dom@18.2.0)(react@18.2.0)
@@ -3122,15 +3122,15 @@ packages:
       '@storybook/global': 5.0.0
     dev: true
 
-  /@storybook/addon-links@7.6.18(react@18.2.0):
-    resolution: {integrity: sha512-KOA9mcl+cSLjdHx4WNkTB/Y+flRnM3MY+Q9/f7suznIYEmx1KKQoOhcmudFKJZEEH5FaQUDaaJE/3sj0JTiBRQ==}
+  /@storybook/addon-links@8.0.9(react@18.2.0):
+    resolution: {integrity: sha512-FVt+AdW3JFSqbJzkKiqKsMRWqHXqEvCBqFs7lNfk3OW0w0jfv1iREtrxE0dVdJoUFQC9V/2Im/EpJ7UB3C2bNQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     peerDependenciesMeta:
       react:
         optional: true
     dependencies:
-      '@storybook/csf': 0.1.2
+      '@storybook/csf': 0.1.5
       '@storybook/global': 5.0.0
       react: 18.2.0
       ts-dedent: 2.2.0
@@ -3181,7 +3181,7 @@ packages:
       '@storybook/client-logger': 7.6.18
       '@storybook/components': 7.6.18(react-dom@18.2.0)(react@18.2.0)
       '@storybook/core-events': 7.6.18
-      '@storybook/csf': 0.1.2
+      '@storybook/csf': 0.1.5
       '@storybook/docs-tools': 7.6.18
       '@storybook/global': 5.0.0
       '@storybook/manager-api': 7.6.18(react-dom@18.2.0)(react@18.2.0)
@@ -3428,7 +3428,7 @@ packages:
       '@babel/core': 7.23.3
       '@babel/preset-env': 7.23.3(@babel/core@7.23.3)
       '@babel/types': 7.23.4
-      '@storybook/csf': 0.1.2
+      '@storybook/csf': 0.1.5
       '@storybook/csf-tools': 7.6.18
       '@storybook/node-logger': 7.6.18
       '@storybook/types': 7.6.18
@@ -3452,7 +3452,7 @@ packages:
       '@radix-ui/react-select': 1.2.2(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-toolbar': 1.0.4(react-dom@18.2.0)(react@18.2.0)
       '@storybook/client-logger': 7.6.18
-      '@storybook/csf': 0.1.2
+      '@storybook/csf': 0.1.5
       '@storybook/global': 5.0.0
       '@storybook/theming': 7.6.18(react-dom@18.2.0)(react@18.2.0)
       '@storybook/types': 7.6.18
@@ -3619,7 +3619,7 @@ packages:
       '@storybook/channels': 7.6.18
       '@storybook/core-common': 7.6.18
       '@storybook/core-events': 7.6.18
-      '@storybook/csf': 0.1.2
+      '@storybook/csf': 0.1.5
       '@storybook/csf-tools': 7.6.18
       '@storybook/docs-mdx': 0.1.0
       '@storybook/global': 5.0.0
@@ -3677,7 +3677,7 @@ packages:
       '@babel/parser': 7.23.4
       '@babel/traverse': 7.23.4
       '@babel/types': 7.23.4
-      '@storybook/csf': 0.1.2
+      '@storybook/csf': 0.1.5
       '@storybook/types': 7.6.18
       fs-extra: 11.1.1
       recast: 0.23.4
@@ -3917,7 +3917,7 @@ packages:
       '@storybook/channels': 7.6.4
       '@storybook/client-logger': 7.6.4
       '@storybook/core-events': 7.6.4
-      '@storybook/csf': 0.1.2
+      '@storybook/csf': 0.1.5
       '@storybook/global': 5.0.0
       '@storybook/types': 7.6.4
       '@types/qs': 6.9.7
