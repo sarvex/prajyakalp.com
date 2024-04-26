@@ -29,8 +29,8 @@ devDependencies:
     specifier: 1.4.2
     version: 1.4.2(@types/node@20.11.10)
   '@playwright/test':
-    specifier: 1.41.1
-    version: 1.41.1
+    specifier: 1.43.1
+    version: 1.43.1
   '@storybook/addon-essentials':
     specifier: 7.6.18
     version: 7.6.18(react-dom@18.2.0)(react@18.2.0)
@@ -45,10 +45,10 @@ devDependencies:
     version: 7.6.18(typescript@5.3.3)(vite@5.0.13)
   '@storybook/html':
     specifier: 7.6.18
-    version: 7.6.18(@babel/core@7.23.3)
+    version: 7.6.18(@babel/core@7.24.4)
   '@storybook/html-vite':
     specifier: 7.6.18
-    version: 7.6.18(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.0.13)
+    version: 7.6.18(@babel/core@7.24.4)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.0.13)
   '@types/eslint':
     specifier: 8.56.10
     version: 8.56.10
@@ -2743,12 +2743,12 @@ packages:
     dev: true
     optional: true
 
-  /@playwright/test@1.41.1:
-    resolution: {integrity: sha512-9g8EWTjiQ9yFBXc6HjCWe41msLpxEX0KhmfmPl9RPLJdfzL4F0lg2BdJ91O9azFdl11y1pmpwdjBiSxvqc+btw==}
+  /@playwright/test@1.43.1:
+    resolution: {integrity: sha512-HgtQzFgNEEo4TE22K/X7sYTYNqEMMTZmFS8kTq6m8hXj+m1D8TgwgIbumHddJa9h4yl4GkKb8/bgAl2+g7eDgA==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      playwright: 1.41.1
+      playwright: 1.43.1
     dev: true
 
   /@polka/url@1.0.0-next.24:
@@ -4269,7 +4269,7 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/html-vite@7.6.18(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.0.13):
+  /@storybook/html-vite@7.6.18(@babel/core@7.24.4)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.0.13):
     resolution: {integrity: sha512-eZXNQVQjc68Mbkh19hexFmMkK+bEvKE3X2ptNNegOSxey9lI5+kRdwk16ovbkUuuIyIE6QVzE8GCqbgUEJe4VA==}
     engines: {node: ^14.18 || >=16}
     dependencies:
@@ -4277,7 +4277,7 @@ packages:
       '@storybook/builder-vite': 7.6.18(typescript@5.3.3)(vite@5.0.13)
       '@storybook/client-api': 7.6.18
       '@storybook/core-server': 7.6.18
-      '@storybook/html': 7.6.18(@babel/core@7.23.3)
+      '@storybook/html': 7.6.18(@babel/core@7.24.4)
       '@storybook/node-logger': 7.6.18
       '@storybook/preview-web': 7.6.18
       magic-string: 0.30.5
@@ -4295,13 +4295,13 @@ packages:
       - vite-plugin-glimmerx
     dev: true
 
-  /@storybook/html@7.6.18(@babel/core@7.23.3):
+  /@storybook/html@7.6.18(@babel/core@7.24.4):
     resolution: {integrity: sha512-3VcxnUfn0uHlUeoFK+pOo+DCTw0trk4ryWhsJjfxzA/ia+929YUgmjhqf+gGrN+9onCcuLvZNEplriEEpExG8w==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@babel/core': '*'
     dependencies:
-      '@babel/core': 7.23.3
+      '@babel/core': 7.24.4
       '@storybook/core-client': 7.6.18
       '@storybook/docs-tools': 7.6.18
       '@storybook/global': 5.0.0
@@ -9565,18 +9565,18 @@ packages:
       pathe: 1.1.1
     dev: true
 
-  /playwright-core@1.41.1:
-    resolution: {integrity: sha512-/KPO5DzXSMlxSX77wy+HihKGOunh3hqndhqeo/nMxfigiKzogn8kfL0ZBDu0L1RKgan5XHCPmn6zXd2NUJgjhg==}
+  /playwright-core@1.43.1:
+    resolution: {integrity: sha512-EI36Mto2Vrx6VF7rm708qSnesVQKbxEWvPrfA1IPY6HgczBplDx7ENtx+K2n4kJ41sLLkuGfmb0ZLSSXlDhqPg==}
     engines: {node: '>=16'}
     hasBin: true
     dev: true
 
-  /playwright@1.41.1:
-    resolution: {integrity: sha512-gdZAWG97oUnbBdRL3GuBvX3nDDmUOuqzV/D24dytqlKt+eI5KbwusluZRGljx1YoJKZ2NRPaeWiFTeGZO7SosQ==}
+  /playwright@1.43.1:
+    resolution: {integrity: sha512-V7SoH0ai2kNt1Md9E3Gwas5B9m8KR2GVvwZnAI6Pg0m3sh7UvgiYhRrhsziCmqMJNouPckiOhk8T+9bSAK0VIA==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      playwright-core: 1.41.1
+      playwright-core: 1.43.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
