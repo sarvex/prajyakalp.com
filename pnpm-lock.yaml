@@ -44,8 +44,8 @@ devDependencies:
     specifier: 8.1.4
     version: 8.1.4(prettier@3.2.5)(typescript@5.4.5)(vite@5.2.11)
   '@storybook/html':
-    specifier: 8.0.9
-    version: 8.0.9
+    specifier: 8.1.4
+    version: 8.1.4(prettier@3.2.5)
   '@storybook/html-vite':
     specifier: 8.1.4
     version: 8.1.4(prettier@3.2.5)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.5)(vite@5.2.11)
@@ -3232,20 +3232,6 @@ packages:
       - utf-8-validate
       - vite
       - vite-plugin-glimmerx
-    dev: true
-
-  /@storybook/html@8.0.9:
-    resolution: {integrity: sha512-jJBQBnf+xs/THwPWGkgFc4p5+cukFRdr48BP4Fnfglz/Hi+nSc0GeiIPG8pHMO7SPFUjK2m3oXLnyICjO+bJDQ==}
-    engines: {node: '>=18.0.0'}
-    dependencies:
-      '@storybook/docs-tools': 8.0.9
-      '@storybook/global': 5.0.0
-      '@storybook/preview-api': 8.0.9
-      '@storybook/types': 8.0.9
-      ts-dedent: 2.2.0
-    transitivePeerDependencies:
-      - encoding
-      - supports-color
     dev: true
 
   /@storybook/html@8.1.4(prettier@3.2.5):
